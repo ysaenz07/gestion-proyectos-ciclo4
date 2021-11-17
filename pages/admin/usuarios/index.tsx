@@ -1,10 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
-const yerman = ()=>{
+const index = ()=>{
     return(
         <div>
-            Pagina de admin de usuarios
+            <div></div>Pagina de admin de usuarios</div>
+            <Link href='/'>
+                <a>Ir al Home</a>
+            </Link>
         </div>
     )
 }
-export default yerman
+export default index
